@@ -50,7 +50,7 @@ setup(
     version=version,
     description="""pacchetto per la gestione delle sessioni""",
     long_description=readme + '\n\n' + history,
-    author='Django Session Viewset Mixin',
+    author='FankHood Business Solutions SRL',
     author_email='info@frankhood.it',
     url='https://github.com/frankhood/django-session-viewset-mixin',
     packages=[
