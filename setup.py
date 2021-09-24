@@ -11,7 +11,7 @@ except ImportError:
 
 
 def get_version(*file_paths):
-    """Retrieves the version from django_session_mixin_view/__init__.py"""
+    """Retrieves the version from session_view_mixin/__init__.py"""
     filename = os.path.join(os.path.dirname(__file__), *file_paths)
     version_file = open(filename).read()
     version_match = re.search(r"^__version__ = ['\"]([^'\"]*)['\"]",
@@ -21,7 +21,7 @@ def get_version(*file_paths):
     raise RuntimeError('Unable to find version string.')
 
 
-version = get_version("django_session_mixin_view", "__init__.py")
+version = get_version("session_view_mixin", "__init__.py")
 
 
 if sys.argv[-1] == 'publish':
@@ -46,21 +46,21 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 requirements = open('requirements.txt').readlines()
 
 setup(
-    name='django-session-viewset-mixin',
+    name='session-view-mixin',
     version=version,
-    description="""pacchetto per la gestione delle sessioni""",
+    description="""Package for manage session in views.""",
     long_description=readme + '\n\n' + history,
     author='FankHood Business Solutions SRL',
     author_email='info@frankhood.it',
-    url='https://github.com/frankhood/django-session-viewset-mixin',
+    url='https://github.com/frankhood/django-session-view-mixin',
     packages=[
-        'django-session-viewset-mixin',
+        'session_view_mixin',
     ],
     include_package_data=True,
     install_requires=requirements,
     license="MIT",
     zip_safe=False,
-    keywords='django-session-viewset-mixin',
+    keywords='session-view-mixin',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Framework :: Django :: 1.11',

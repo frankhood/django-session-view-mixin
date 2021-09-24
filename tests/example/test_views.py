@@ -10,7 +10,8 @@ Tests for `django-session-mixin-view` models module.
 from django.utils import timezone
 from django.test import TestCase
 # Create your tests here.
-from django_session_mixin_view.session_mixin import SessionMixin
+from session_view_mixin.view_mixin import SessionMixin
+
 
 # =============================================
 # ./manage.py test tests.example.test_views.TestViewSessionMixin
@@ -25,7 +26,6 @@ class TestViewSessionMixin(TestCase):
     # ./manage.py test tests.example.test_views.TestViewSessionMixin.test_set_session
     # =============================================
     def test_set_session(self):
-
         session = self.client.session
         session_mixin = SessionMixin()
 

@@ -1,5 +1,5 @@
 =============================
-Django-Session-Mixin-View
+Django-Session-View-Mixin
 =============================
 
 .. image:: https://badge.fury.io/py/django-session-mixin-view.svg
@@ -21,9 +21,9 @@ The full documentation is at https://django-session-mixin-view.readthedocs.io.
 Quickstart
 ----------
 
-Install Django-Session-Mixin-View::
+Install Django-Session-View-Mixin::
 
-    pip install django-session-mixin-view
+    pip install django-session-view-mixin
 
 Add it to your `INSTALLED_APPS`:
 
@@ -31,22 +31,9 @@ Add it to your `INSTALLED_APPS`:
 
     INSTALLED_APPS = (
         ...
-        'django_session_mixin_view.apps.DjangoSessionMixinViewConfig',
+        'session_mixin_view',
         ...
     )
-
-Add Django-Session-Mixin-View's URL patterns:
-
-.. code-block:: python
-
-    from django_session_mixin_view import urls as django_session_mixin_view_urls
-
-
-    urlpatterns = [
-        ...
-        url(r'^', include(django_session_mixin_view_urls)),
-        ...
-    ]
 
 Features
 --------

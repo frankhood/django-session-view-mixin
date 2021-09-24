@@ -50,7 +50,7 @@ def docs(c):
     """
     c.run("rm -f docs/django-session-mixin-view.rst")
     c.run("rm -f docs/modules.rst")
-    c.run("sphinx-apidoc -o docs/ django_session_mixin_view")
+    c.run("sphinx-apidoc -o docs/ session_view_mixin")
 
     c.run("sphinx-build -E -b html docs docs/_build")
     open_browser(path='docs/_build/html/index.html')

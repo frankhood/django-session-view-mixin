@@ -6,5 +6,4 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^', include('django_session_mixin_view.urls', namespace='django_session_mixin_view')),
 ]

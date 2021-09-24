@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 
 class DjangoSessionMixinViewConfig(AppConfig):
-    name = 'django_session_mixin_view'
+    name = 'session_view_mixin'
