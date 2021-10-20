@@ -1,4 +1,4 @@
-* Django-Session-Mixin-View version:
+* Django Session View Mixin version:
 * Django version:
 * Python version:
 * Operating System:

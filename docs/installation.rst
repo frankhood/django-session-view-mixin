@@ -4,9 +4,9 @@ Installation
 
 At the command line::
 
-    $ easy_install django-session-mixin-view
+    $ easy_install django-session-view-mixin
 
 Or, if you have virtualenvwrapper installed::
 
-    $ mkvirtualenv django-session-mixin-view
-    $ pip install django-session-mixin-view
+    $ mkvirtualenv django-session-view-mixin
+    $ pip install django-session-view-mixin

@@ -1,27 +1,28 @@
 =============================
-Django-Session-View-Mixin
+Django Session View Mixin
 =============================
 
-.. image:: https://badge.fury.io/py/django-session-mixin-view.svg
-    :target: https://badge.fury.io/py/django-session-mixin-view
+.. image:: https://badge.fury.io/py/django-session-view-mixin.svg/?style=flat-square
+    :target: https://badge.fury.io/py/django-session-view-mixin
 
-.. image:: https://travis-ci.org/yourname/django-session-mixin-view.svg?branch=master
-    :target: https://travis-ci.org/yourname/django-session-mixin-view
+.. image:: https://readthedocs.org/projects/pip/badge/?version=latest&style=flat-square
+    :target: https://django-session-view-mixin.readthedocs.io/en/latest/
 
-.. image:: https://codecov.io/gh/yourname/django-session-mixin-view/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/yourname/django-session-mixin-view
+.. image:: https://img.shields.io/coveralls/github/frankhood/django-session-view-mixin/master?style=flat-square
+    :target: https://coveralls.io/github/frankhood/django-session-view-mixin?branch=master
+    :alt: Coverage Status
 
-pacchetto per la gestione delle sessioni
+Your project description goes here
 
 Documentation
 -------------
 
-The full documentation is at https://django-session-mixin-view.readthedocs.io.
+The full documentation is at https://django-session-view-mixin.readthedocs.io.
 
 Quickstart
 ----------
 
-Install Django-Session-View-Mixin::
+Install Django Session View Mixin::
 
     pip install django-session-view-mixin
 
@@ -31,9 +32,13 @@ Add it to your `INSTALLED_APPS`:
 
     INSTALLED_APPS = (
         ...
-        'session_mixin_view',
+        'session_view_mixin',
         ...
     )
+
+Add Django Session View Mixin's URL patterns:
+
+.. code-block:: python
 
 Features
 --------

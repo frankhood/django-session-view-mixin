@@ -2,5 +2,5 @@
 from django.apps import AppConfig
 
 
-class DjangoSessionMixinViewConfig(AppConfig):
+class SessionViewMixinConfig(AppConfig):
     name = 'session_view_mixin'
