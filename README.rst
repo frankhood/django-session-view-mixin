@@ -36,9 +36,6 @@ Add it to your `INSTALLED_APPS`:
         ...
     )
 
-Add Django Session View Mixin's URL patterns:
-
-.. code-block:: python
 
 Features
 --------
