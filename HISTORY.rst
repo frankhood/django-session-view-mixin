@@ -13,7 +13,7 @@ History
 
 * Update github actions.
 
-0.1.1 (2021-10-21)
+0.1.2 (2021-10-21)
 ++++++++++++++++++
 
 * Fix coveralls.
