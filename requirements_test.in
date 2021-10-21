@@ -6,5 +6,6 @@ flake8
 tox
 codecov
 importlib-metadata<4.3
+importlib-resources>=1.0
 
 # Additional test requirements go here
