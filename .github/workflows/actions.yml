@@ -36,7 +36,7 @@ jobs:
         python -m pip install .
         python -m pip install -r requirements_test.txt
         python -m pip install coveralls==3.1.0 coverage
-        python -m coverage run --source django-session-view-mixin runtests.py
+        python -m coverage run --source session_view_mixin runtests.py
         coveralls --service=github
 
   read-the-docs:
